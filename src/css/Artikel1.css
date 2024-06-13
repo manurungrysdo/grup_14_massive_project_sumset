@@ -1,0 +1,42 @@
+.image-overlay-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.image-overlay-1 img {
+  padding-top: 1%;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.overlay-content-1 {
+  position: absolute;
+  top: 100%;
+  left: 22%;
+  transform: translate(-23%, -50%);
+  color: black;
+  font-size: 60px;
+}
+
+.articel-2 {
+  padding: 5%;
+}
+
+.articel-2 .tips-2 {
+  color: #14b85e;
+}
+
+.articel hr {
+  border: none;
+  height: 5px;
+  background-color: #14b85e;
+  margin: 20px 0;
+}
+
+.artikel .isi {
+  left: 30%;
+}
+.isi {
+  font-weight: 800;
+}

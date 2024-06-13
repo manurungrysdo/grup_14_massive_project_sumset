@@ -1,0 +1,276 @@
+/*pada Bagian Header*/
+.image-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.image-overlay img {
+  padding-top: 5%;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px 150px;
+  background: #14b85e;
+  border-radius: 20px;
+}
+
+.overlay-content h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.overlay-content p {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: white;
+}
+
+.btn_panah {
+  position: absolute;
+  top: 150px; /* Adjust this value to your liking */
+  left: 100px; /* Adjust this value to your liking */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: #5adf96;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn_panah h1 {
+  margin: 0;
+}
+
+.btn_panah:hover {
+  background-color: #14b85e;
+  transform: translateY(-2px);
+}
+
+.btn_panah:active {
+  background-color: #0a5e32;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*pada Bagian kebutuhan*/
+.kebutuhan {
+  padding-top: 10%;
+  padding: 5%;
+}
+
+.kebutuhan h1 {
+  color: #14b85e;
+  font-size: 45px;
+}
+
+.kebutuhan p {
+  font-size: 20px;
+}
+
+/*pada Bagian seputaran*/
+.seputaran_info h1 {
+  text-align: start;
+}
+
+.seputaran_info p {
+  text-align: center;
+  color: #14b85e;
+}
+
+/* src/css/Hamil.css */
+.seputaran_info {
+  padding: 20px;
+}
+
+.container-ibu {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 20px;
+  scroll-snap-type: x mandatory; /* Menyebabkan konten menggeser ke samping */
+  -webkit-overflow-scrolling: touch; /* Untuk performa yang lebih baik di perangkat mobile */
+  overflow: auto;
+  scrollbar-width: none; /* Untuk Firefox */
+}
+
+.card-ibu {
+  padding: 5px 20px;
+  width: 400px;
+  height: 300px;
+  margin-right: 10px;
+  background-color: #d9fde9;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  align-items: center;
+  text-align: center;
+  color: #14b85e;
+  cursor: grab; /* Menambahkan gaya kursor */
+}
+
+.card-ibu:active {
+  background-color: #c4e6d4; /* Perubahan warna saat diklik */
+  cursor: grabbing; /* Menambahkan gaya kursor saat di-drag */
+}
+
+.noselect {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ dan Edge */
+}
+
+.card-ibu h1 {
+  text-align: center;
+}
+
+.card-ibu h4 {
+  font-size: 20px;
+}
+
+.seputaran_info1-ibu h1 {
+  margin: 1px;
+}
+
+.seputaran_info1-ibu p {
+  text-align: center;
+  color: #14b85e;
+}
+
+.container1-ibu {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 2px;
+  scroll-snap-type: x mandatory; /* Menyebabkan konten menggeser ke samping */
+  -webkit-overflow-scrolling: touch; /* Untuk performa yang lebih baik di perangkat mobile */
+  overflow: auto;
+  scrollbar-width: none; /* Untuk Firefox */
+}
+
+.card1-ibu {
+  background-color: #14b85e;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; /* Ensure the image does not overflow the card */
+  padding-bottom: 10%;
+  flex-shrink: 0;
+}
+
+.card1-ibu .simbol {
+  position: absolute;
+  top: 50px; /* Adjust the distance from the top */
+  right: 10px; /* Adjust the distance from the right */
+  width: 90px; /* Adjust as needed */
+  height: auto;
+}
+
+.card1-ibu img {
+  width: 75%; /* Smaller image size */
+  height: auto;
+  position: absolute;
+  bottom: 0; /* Tight to the bottom edge */
+  right: 0; /* Tight to the right edge */
+  opacity: 0.8; /* Slight transparency to blend with text */
+  margin: 0; /* Ensure no margin */
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #ffffff;
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+.card1-ibu h1 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.card1-ibu p {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+}
+
+/*tips */
+.tips-sehat {
+  padding-top: 10%;
+}
+
+.tips {
+  background-color: #14b85e;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 95%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; /* Ensure the image does not overflow the card */
+}
+
+.tips1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tips1 h1 {
+  font-size: 45px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 10 25%;
+}
+
+.tips_simbol {
+  position: absolute;
+  top: 5%;
+  right: 30%;
+  width: 5%; /* Adjust as needed */
+  height: auto;
+}
+
+.tips hr {
+  border: 0;
+  height: 2px;
+  background: #ffffff;
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.tips ul {
+  padding-left: 20px; /* Adjust padding to indent the list */
+  padding: 10 10%;
+  list-style-type: disc; /* Use disc bullet points */
+  color: #ffffff;
+}
+
+.tips ul li {
+  margin-bottom: 10px; /* Adjust spacing between list items */
+  font-size: 22px;
+  line-height: 1.5;
+}

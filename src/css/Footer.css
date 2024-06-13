@@ -1,0 +1,170 @@
+footer {
+  background-color: #e3fcee;
+  padding: 20px 70;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.footer-color {
+  color: #14b85e;
+}
+.footer-content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Menambahkan jarak antara elemen agar tidak berjauhan */
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 55px; /* Menambahkan padding 10px ke dalam .footer-column */
+}
+
+.footer-column:last-child {
+  margin-right: 10;
+}
+
+.footer-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 20px;
+}
+
+.footer-column a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #248e5e;
+}
+
+.footer-column img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-column li {
+  color: #ffffff;
+}
+
+.footer-column {
+  color: #248e5e;
+}
+
+.footer-column ul:nth-child(2) {
+  margin-left: 20px;
+}
+
+.footer-column ul:last-child {
+  margin-left: 20px;
+}
+
+.footer-column .medsos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 200;
+}
+
+.footer-column .medsos a img {
+  width: 20px; /* Atur lebar gambar logo sesuai kebutuhan */
+  height: auto; /* Biarkan tinggi gambar mengikuti proporsi aslinya */
+}
+
+.medsos a img {
+  width: 25px !important; /* Menetapkan lebar gambar logo menjadi 30px */
+  height: 25px !important; /* Menetapkan tinggi gambar logo menjadi 30px */
+  display: block !important; /* Memastikan gambar logo tidak inline */
+  margin: 0 auto !important;
+}
+
+.footer-column .medsos a {
+  padding: 10px;
+}
+
+.footer-column li {
+  display: flex;
+  color: #14b85e;
+}
+
+.footer-column ul.Bantuan li {
+  color: #14b85e; /* Atur warna teks untuk elemen dalam daftar */
+}
+
+.footer-column ul li img {
+  filter: brightness(0) invert(1); /* Mengubah warna gambar menjadi putih */
+}
+
+footer .copy {
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .footer-column ul:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .footer-column ul:last-child {
+    margin-left: 0;
+  }
+}
+
+.contact-footer {
+  color: #14b85e;
+  display: flex;
+}
+
+.contact-footer .putih {
+  flex-direction: column;
+}
+
+.contact-footer .hijau {
+  color: #14b85e;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.putih,
+.hijau {
+  margin-left: 10px; /* Menambahkan jarak antara elemen */
+}
+
+.contact-footer li img {
+  width: 30px; /* Ubah lebar gambar sesuai kebutuhan */
+  height: 30px;
+  color: #14b85e;
+}

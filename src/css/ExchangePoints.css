@@ -1,0 +1,88 @@
+/* src/css/ExchangePoints.css */
+
+.exchange-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  z-index: 1000;
+  width: 400px; /* Sesuaikan ukuran popup sesuai kebutuhan */
+  max-width: 90%;
+  border-radius: 10px;
+  display: none; /* Sembunyikan popup secara default */
+}
+
+.exchange-popup.active {
+  display: block; /* Tampilkan popup ketika memiliki kelas active */
+}
+
+.exchange-popup h2 {
+  margin-top: 0;
+  color: #14b85e;
+  text-align: center;
+}
+
+.exchange-popup .error-message {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.exchange-popup form {
+  margin-bottom: 15px;
+}
+
+.exchange-popup .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.exchange-popup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.exchange-popup input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.exchange-popup button {
+  background-color: #14b85e;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.exchange-popup button:hover {
+  background-color: #12a251;
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 480px) {
+  .exchange-popup {
+    width: 90%;
+  }
+
+  .exchange-popup input {
+    width: calc(100% - 10px);
+  }
+
+  .exchange-popup button {
+    padding: 10px;
+  }
+}

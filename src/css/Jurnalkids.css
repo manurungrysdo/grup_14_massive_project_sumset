@@ -1,0 +1,242 @@
+.header-jurnal {
+  background-color: #34c759;
+  color: #ffffff;
+  padding-top: 5%;
+  width: auto;
+}
+
+.selamat {
+  font-size: 32px;
+}
+
+.header-content-jurnal {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.text-content-jurnal {
+  max-width: 600px;
+  font-size: 46px;
+  margin: 0 0 20px;
+}
+
+.text-content-jurnal-p {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+.journal-button {
+  background-color: #ffffff;
+  color: #14b85e;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-content-jurnal img {
+  padding-left: 26%;
+  padding-top: 1%;
+  padding-bottom: -10px;
+  max-width: 810px;
+  width: 101%;
+  height: auto;
+}
+
+/*pada bagian main tabel */
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.profile-section-jurnal {
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.profile-info span {
+  color: #0f0e0f;
+  font-size: 14px;
+}
+
+.month-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.month-buttons button {
+  background-color: #34c759;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.points {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.points img {
+  width: 15%;
+  height: auto;
+}
+
+.points span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.redeem-button {
+  background-color: #34c759;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.journal-section {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  color: #5d5d7c;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #e3fcee;
+}
+
+.kan_gizi {
+  color: #14b85e;
+}
+
+.note {
+  font-size: 20px;
+  color: #14b85e;
+  padding-top: 10px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.info-item {
+  display: flex; /* Membuat gambar dan .info-card berada dalam satu baris */
+  align-items: center;
+  gap: 20px;
+}
+
+.info-item img {
+  width: 50px; /* Mengatur ukuran gambar */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column; /* Mengubah baris menjadi kolom */
+  gap: 20px;
+  background-color: #e6f7e6;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* This allows the info-card to take the available space */
+}
+
+.info-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-card-h3-jurnal {
+  margin: 0;
+  color: #000000;
+  font-weight: 900;
+}
+
+.info-card-p-jurnal {
+  margin: 0;
+  color: #5d5d7c;
+}
+
+/* Tambahkan gaya untuk popup overlay */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

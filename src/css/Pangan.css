@@ -1,0 +1,157 @@
+.panduan_gizi {
+  text-decoration: none; /* Menghilangkan garis bawah dari tautan */
+  padding: 10px 30px; /* Ruang dalam di dalam tautan */
+  background-color: #0f9b37; /* Warna latar belakang tautan */
+  color: #fff; /* Warna teks */
+  border-radius: 50px; /* Membuat sudut tautan sedikit melengkung */
+}
+
+.panduan_gizi:hover {
+  background-color: #1db265; /* Warna latar belakang saat tautan dihover */
+}
+
+/* General button styling */
+.btn1 {
+  display: inline-block;
+  padding: 5px 30px;
+
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #14b85e;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.btn1:hover {
+  background-color: #2a7c33;
+  transform: translateY(-2px);
+}
+
+/* Active effect */
+.btn1:active {
+  background-color: #d3fdd8;
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus effect */
+.btn1:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(194, 243, 195, 0.5);
+}
+
+/*pada bagian manfaat sayur dalam gambar ada text*/
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Menyesuaikan ketinggian gambar dengan tinggi layar */
+  overflow: hidden; /* Mengatur agar teks tetap di dalam gambar */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Memastikan gambar mengisi seluruh kotak */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.text-overlay h1 b {
+  color: #1db265;
+}
+
+/*pada bagian manfaat Sayur*/
+.manfaat-sayuran {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: transparent;
+}
+
+.manfaat-sayuran h4 {
+  text-align: center;
+  color: #0f9b37;
+}
+
+.manfaat-sayuran h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.manfaat-sayuran-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.manfaat-sayuran-item {
+  flex-basis: calc(20.2% - 10px);
+}
+
+.manfaat-sayuran-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.manfaat-sayuran {
+  text-align: center;
+  /* Mengatur konten di tengah */
+}
+
+.manfaat-sayuran-item a {
+  text-decoration: none;
+}
+
+.manfaat-sayuran-item a h3:hover {
+  color: #1c7c39;
+}
+
+/*bagian footer*/
+.contact {
+  display: flex;
+}
+
+.contact .putih {
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.contact .hijau {
+  color: #14b85e;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.putih,
+.hijau {
+  margin-left: 10px; /* Menambahkan jarak antara elemen */
+}
+
+.contact li img {
+  width: 30px; /* Ubah lebar gambar sesuai kebutuhan */
+  height: 30px;
+}

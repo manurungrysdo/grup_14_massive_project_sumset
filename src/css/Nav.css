@@ -1,0 +1,75 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #ffffff; /* Tambahkan latar belakang jika diinginkan */
+  z-index: 1000; /* Atur z-index agar navigasi tampil di atas konten lain */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  width: 150px; /* Atur lebar gambar logo sesuai kebutuhan */
+  height: auto; /* Biarkan tinggi gambar mengikuti proporsi aslinya */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 50px;
+  position: relative;
+  /* Untuk posisi relatif agar dropdown muncul di posisi relatif dari item menu utama */
+}
+
+.nav-links li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #3e8e41;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  display: block;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  /* Menambahkan transisi jika diinginkan */
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  padding: 15px;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.016);
+  z-index: 1;
+  opacity: 0;
+  /* Atur opacity ke 0 agar awalnya tersembunyi */
+  transition: opacity 0.9s ease;
+  /* Tambahkan efek transisi */
+}
+
+/* Tampilkan dropdown ketika item menu utama di-hover */
+.nav-links li:hover .dropdown-content {
+  display: block;
+  opacity: 2;
+  /* Atur opacity ke 1 ketika dropdown ditampilkan */
+}

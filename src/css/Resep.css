@@ -1,0 +1,145 @@
+/*pada Bagian Header*/
+.container-resep {
+  background-color: #e0f7ef;
+  padding: 40px;
+  padding-top: 10%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-resep {
+  margin-bottom: 20px;
+}
+
+.headline {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.highlight {
+  color: #14b85e;
+}
+
+/*pada Bagian bagian resep makanan*/
+.container_makanan {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 100%;
+}
+
+.container_makanan1 {
+  background-color: #ffffff;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 100%;
+}
+
+.card-container-resep {
+  display: flex;
+  justify-content: space-evenly; /* Mengubah dari space-around ke space-evenly untuk rata samping */
+  flex-wrap: nowrap; /* Mengubah dari wrap ke nowrap agar card tidak turun ke baris baru */
+  gap: 5px;
+  overflow: visible; /* Pastikan elemen induk memiliki overflow visible */
+  padding-top: 110px;
+}
+
+.card-resep {
+  position: relative; /* Menambahkan posisi relatif pada card */
+  overflow: visible; /* Mengizinkan konten untuk muncul di luar batas */
+  background-color: #e0f7ef;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Membuat bayangan lebih gelap */
+  max-width: 150px; /* Diperpanjang dari 220px menjadi 300px */
+  flex: 0 0 calc(20% - 20px); /* Mengubah dari flex: 1 1 menjadi flex: 0 0 untuk mencegah perubahan ukuran */
+  margin: 30px;
+  padding: 40px;
+  text-align: center;
+  height: 200px; /* Menambahkan tinggi untuk membuat card lebih panjang ke atas */
+  transition: transform 0.3s; /* Menambahkan efek transisi saat kursor diarahkan */
+}
+
+.card-resep:hover {
+  transform: scale(1.05); /* Membuat card membesar saat kursor diarahkan */
+}
+.card-image-resep {
+  position: absolute; /* Mengatur posisi gambar menjadi absolut */
+  top: -55%; /* Mengatur posisi gambar agar muncul keluar dari card ke atas */
+  left: 50%; /* Menengahkan gambar secara horizontal */
+  transform: translateX(-50%); /* Menyesuaikan penengahan gambar */
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-title-resep {
+  font-size: auto;
+  color: #14b85e;
+  justify-content: flex-end; /* Mengubah ke flex-end untuk membuat teks rata ke kanan */
+  margin-bottom: 10px;
+  position: absolute;
+  top: 42%;
+  right: 50%; /* Mengubah left menjadi right */
+  transform: translate(50%, -50%); /* Mengubah nilai translate agar teks rata ke kanan */
+  font-weight: bold; /* Menjadikan teks judul menjadi tebal */
+  white-space: nowrap; /* Mencegah teks judul menurun ke bawah */
+  font-weight: bold; /* Menjadikan teks judul menjadi tebal */
+}
+
+.card-description-resep {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 52%; /* Mengatur posisi deskripsi di bawah judul */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; /* Menentukan lebar deskripsi agar tidak melebihi card */
+  text-align: center; /* Menengahkan teks deskripsi */
+}
+
+.card-button-resep {
+  display: block; /* Mengubah dari inline-block menjadi block */
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4caf50;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 80%; /* Mengatur posisi tombol di bawah deskripsi */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%; /* Menentukan lebar tombol agar sesuai dengan card */
+  text-align: center; /* Menengahkan teks pada tombol */
+  margin: 0 auto; /* Membuat tombol berada di tengah */
+}
+
+.card-button-resep {
+  background-color: #45a049;
+}
+
+.headline_makanan {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.highlight_makanan {
+  color: #14b85e;
+  padding-left: 15px;
+  padding-bottom: 100px;
+}

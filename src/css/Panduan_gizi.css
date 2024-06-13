@@ -1,0 +1,122 @@
+.header-gizi {
+  color: #ffffff;
+  width: auto;
+}
+
+.image-content-gizi img {
+  width: 100%;
+  height: auto;
+  padding-top: 55px;
+}
+
+.seputaran_info {
+  padding: 20px;
+}
+.seputaran_info h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.seputaran_info p {
+  text-align: center;
+  color: #14b85e;
+}
+
+.container-gizi {
+  display: flex;
+
+  justify-content: center;
+}
+
+.card-image-gizi {
+  position: absolute; /* Mengatur posisi gambar menjadi absolut */
+  top: -16%; /* Mengatur posisi gambar agar muncul keluar dari card ke atas */
+  left: 20%; /* Menengahkan gambar secara horizontal */
+  transform: translateX(-28%); /* Menyesuaikan penengahan gambar */
+}
+.card-gizi {
+  position: relative; /* Menambahkan posisi relatif pada card */
+  background-color: #e0f7ef;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Membuat bayangan lebih gelap */
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Menata elemen dalam kolom */
+  height: 250px; /* Menambahkan tinggi untuk membuat card lebih panjang ke atas */
+  min-width: 410px;
+  cursor: pointer; /* Menambahkan cursor pointer */
+}
+
+.container-gizi a {
+  text-decoration: none;
+}
+
+.card-gizi h1,
+.card-gizi h2 {
+  position: absolute;
+  right: 10px; /* Adjust right position as needed */
+}
+
+.card-gizi h1 {
+  margin-bottom: 10px;
+  color: #14b85e;
+  flex-shrink: 0;
+  font-size: 32px;
+  bottom: 30px; /* Adjust bottom position as needed */
+}
+
+.card-gizi h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  flex-shrink: 0;
+  bottom: 10px; /* Adjust bottom position as needed */
+}
+
+/*Bagian contribusi TIM*/
+.contribusi {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.title {
+  font-size: 20px;
+  color: #0f9b37;
+}
+
+.description {
+  color: #000000;
+}
+
+.description b {
+  color: #0f9b37;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Mengatur agar konten berada di tengah */
+  gap: 20px; /* Jarak antara elemen */
+}
+
+.profile-container {
+  flex-basis: calc(18.11% - 20px); /* Lebar setiap kolom */
+  margin-bottom: 20px;
+  text-align: center; /* Mengatur agar konten berada di tengah */
+  position: relative; /* Mengatur posisi relatif untuk menempatkan elemen lainnya */
+  align-items: center; /* Mengatur agar konten berada di tengah vertikal */
+  padding-bottom: 10%;
+}
+
+.profile-name1 b {
+  color: #000000;
+}
+
+.profile-image {
+  max-width: 100%; /* Agar gambar tidak melebihi lebar container */
+}
+
+.profile-name1 {
+  margin-top: 10px; /* Memberikan jarak antara gambar dan nama */
+  color: #0f9b37;
+}

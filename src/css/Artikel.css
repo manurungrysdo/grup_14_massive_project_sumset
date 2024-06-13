@@ -1,0 +1,199 @@
+.container-artikel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.header-artikel {
+  padding: 20px; /* Menambahkan ruang di dalam border */
+  margin-bottom: 20px; /* Menambahkan jarak antara header dan elemen berikutnya */
+}
+
+.judul h1 {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/*bagian search*/
+.search-container {
+  display: flex;
+  max-width: 500px; /* Lebar maksimum kotak pencarian */
+  margin: 0 auto; /* Posisi tengah */
+}
+
+.search-container input[type="text"] {
+  flex: 1; /* Biarkan input mengisi sisa ruang yang tersedia */
+  padding: 10px; /* Padding untuk input */
+  border: 1px solid #14b85e; /* Garis tepi input */
+  border-radius: 5px;
+}
+
+.search-container button[type="submit"] {
+  padding: 10px 15px; /* Padding untuk tombol */
+  background-color: #14b85e; /* Warna latar tombol */
+  border: none; /* Hilangkan border tombol */
+  border-radius: 5px; /* Sudut melengkung hanya di sisi kanan */
+  color: #0f9b37; /* Warna teks tombol */
+  cursor: pointer; /* Ubah kursor menjadi tangan saat dihover */
+}
+
+.container-artikel {
+  padding-left: 1%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.container-artikel img {
+  padding: 2%;
+  width: 50%;
+  height: auto;
+  padding-right: 5%;
+  border-radius: 10%;
+}
+
+.container-artikel h3 {
+  color: #0f9b37;
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.explore-button-artikel {
+  display: inline-block;
+  color: #0f9b37;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button-artikel {
+  color: #1db265;
+}
+
+/*Kolom Artikel Telusuri */
+/* Pembaruan Bagian Artikel */
+.artikel {
+  margin-top: 20px;
+  /* Menambahkan jarak di bagian atas */
+  margin-bottom: 20px;
+  /* Menambahkan jarak di bagian bawah */
+  padding: 0 20px;
+  /* Menambahkan ruang kiri dan kanan */
+}
+
+.lihat-semua {
+  position: absolute; /* Mengatur posisi absolut untuk tombol */
+  top: 0; /* Meletakkan tombol di bagian atas elemen .judul */
+  right: 0; /* Meletakkan tombol di bagian kanan elemen .judul */
+  padding: 15px 40px; /* Atur ukuran padding */
+  background-color: #0f9b37; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  border: none; /* Hilangkan border */
+  border-radius: 5px; /* Agar tombol memiliki sudut melengkung */
+  cursor: pointer; /* Ubah kursor menjadi pointer saat dihover */
+  transition: background-color 0.3s ease; /* Tambahkan efek transisi */
+  text-decoration: none; /* Menghilangkan garis bawah dari tautan */
+  border-radius: 50px; /* Membuat sudut tautan sedikit melengkung */
+}
+
+.lihat-semua:hover {
+  background-color: #1db265; /* Warna latar belakang saat dihover */
+}
+
+.artikel .artikel-row .artikel-item h5 {
+  color: #0f9b37;
+}
+
+.artikel .artikel-row .artikel-item h3 {
+  font-size: 20pn;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.artikel-row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* Memungkinkan item untuk wrap */
+  justify-content: flex-start;
+  /* Memusatkan item */
+  gap: 20px;
+  /* Menambahkan jarak antara kolom */
+  margin-top: -10px;
+  /* Mengurangi jarak atas */
+}
+
+.artikel-column {
+  flex-basis: calc(33.33% - 20px);
+  /* Menyesuaikan lebar kolom */
+  margin-bottom: 20px;
+  /* Menambahkan ruang antara kolom */
+}
+
+.artikel-item {
+  background-color: #fff;
+  /* Warna latar belakang putih */
+  border-radius: 10px;
+  /* Memperbesar radius border untuk sudut yang lebih halus */
+  padding: 20px;
+  /* Ubah padding menjadi 20px */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Meningkatkan bayangan kotak */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Menambahkan transisi */
+  margin: 20px;
+  /* Menambahkan margin sebesar 20px */
+}
+
+.artikel-item:hover {
+  transform: translateY(-5px);
+  /* Menambahkan efek hover ringan */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  /* Meningkatkan bayangan kotak saat hover */
+}
+
+.artikel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /* Menerapkan radius border pada gambar */
+  margin-bottom: 15px;
+  /* Penyesuaian margin */
+}
+
+.artikel-item h3 {
+  font-size: 1.3rem;
+  /* Menyesuaikan ukuran font */
+  margin-bottom: 10px;
+  color: #333;
+  /* Memperdalam warna */
+}
+
+.artikel-item p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  /* Penyesuaian margin */
+  color: #555;
+  /* Memperdalam warna */
+}
+
+.read-more {
+  display: inline-block;
+  /* Mengubah menjadi inline-block untuk penyejajaran yang lebih baik */
+  color: #1db265;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  /* Menyederhanakan transisi */
+}
+
+.read-more:hover {
+  color: #40d186;
+  /* Memperdalam warna saat hover */
+}

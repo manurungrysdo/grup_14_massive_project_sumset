@@ -1,0 +1,140 @@
+.header-forum {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.header-forum h2 {
+  font-size: 50px;
+  color: #000000;
+}
+
+.header-forum h1 span {
+  color: #14b85e;
+}
+
+.header-forum h2 span {
+  color: #14b85e;
+}
+
+.header-forum p {
+  color: #14b85e;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-ask {
+  background-color: #14b85e;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 20%;
+}
+
+.btn-ask:hover {
+  background-color: #3e8e41;
+}
+
+.search-bar {
+  padding: 50px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: calc(100% - 100px); /* Menyesuaikan lebar input dengan sisa ruang yang tersedia */
+  max-width: 600px; /* Maksimum lebar input untuk responsif */
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  background-color: #d9fde9;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.questions {
+  padding-top: 10px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.question-card {
+  background-color: #d9fde9;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-card h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info div {
+  flex-grow: 1;
+}
+
+.user-info p {
+  margin: 0;
+}
+
+.user-info .time {
+  color: #888888;
+}
+
+.question-text {
+  margin-bottom: 10px;
+}
+
+.answers {
+  color: #14b85e;
+  font-weight: bold;
+}
+
+.pagination {
+  text-align: center;
+  margin: 20px;
+}
+
+.btn-page {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-page:hover {
+  background-color: #5d5d7c;
+  color: #ffffff;
+}
+
+.btn-page1 {
+  background-color: #14b85e;
+  border: 1px solid #14b85e;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn-page1:hover {
+  background-color: #14b85e;
+}

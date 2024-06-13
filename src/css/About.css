@@ -1,0 +1,168 @@
+/*pada Bagian Header*/
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1%;
+  background: linear-gradient(to top, #e3fcee, #ffffff);
+  /* Warna terang */
+  color: black;
+  /* Warna teks di atas latar belakang */
+}
+
+.header-content-about {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header-content-about b {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 60px;
+  max-width: 60%;
+}
+
+.header-content-about p {
+  color: #14b85e;
+  font-size: 50px;
+  font-family: Poppins;
+  max-width: 60%;
+}
+
+.container-about img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*pada Bagian Header 1*/
+.container-1-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.container-1-about h3 {
+  color: #0f9b37;
+}
+
+.header-content-1-about {
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+}
+
+.header-content-1-about p b {
+  color: #0f9b37;
+}
+
+.container-1-about img {
+  width: 30%;
+  height: auto;
+  padding-left: 10%;
+  border-radius: 5%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+}
+
+#manfaat-kami {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 10px;
+  background-color: #fff;
+}
+
+/*Bagian contribusi TIM*/
+.contribusi {
+  text-align: center;
+  padding-top: 10%;
+}
+.header-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 20px;
+  color: #0f9b37;
+}
+
+.description {
+  color: #000000;
+}
+
+.description b {
+  color: #0f9b37;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Mengatur agar konten berada di tengah */
+  gap: 20px; /* Jarak antara elemen */
+}
+
+.profile-container {
+  flex-basis: calc(18.11% - 20px); /* Lebar setiap kolom */
+  margin-bottom: 20px;
+  text-align: center; /* Mengatur agar konten berada di tengah */
+  position: relative; /* Mengatur posisi relatif untuk menempatkan elemen lainnya */
+  align-items: center; /* Mengatur agar konten berada di tengah vertikal */
+  padding-bottom: 10%;
+}
+
+.profile-name1 b {
+  color: #000000;
+}
+
+.profile-image {
+  max-width: 100%; /* Agar gambar tidak melebihi lebar container */
+}
+
+.profile-name1 {
+  margin-top: 10px; /* Memberikan jarak antara gambar dan nama */
+  color: #0f9b37;
+}
+.contact {
+  display: flex;
+}
+
+.contact .putih {
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.contact .hijau {
+  color: #14b85e;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.putih,
+.hijau {
+  margin-left: 10px; /* Menambahkan jarak antara elemen */
+}
+
+.contact li img {
+  width: 30px; /* Ubah lebar gambar sesuai kebutuhan */
+  height: 30px;
+}

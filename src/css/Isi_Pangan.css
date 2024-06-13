@@ -1,0 +1,238 @@
+/*tampilan deskripsi text*/
+
+.text {
+  color: rgb(0, 0, 0); /* Warna teks menjadi hijau */
+}
+
+.container-2-isipangan {
+  display: flex;
+  justify-content: space-between;
+}
+/*pada Bagian Header*/
+.container-isipangan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  /* Warna terang */
+  color: black;
+  /* Warna teks di atas latar belakang */
+}
+
+.header-content-isipangan {
+  padding-left: 5%;
+  max-width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+.header-content-isipangan a {
+  text-decoration: none;
+}
+
+.container-isipangan img {
+  width: 45%;
+  height: auto;
+}
+
+.header-content-isipangan img {
+  width: 80px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+.h1 {
+  color: #14b85e;
+  font-size: 90px;
+}
+
+.h11 {
+  font-size: 50px;
+}
+
+.btn_panah-isipangan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: #5adf96;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn_panah-isipangan h1 {
+  margin: 0;
+}
+
+.btn_panah-isipangan:hover {
+  background-color: #14b85e;
+  transform: translateY(-2px);
+}
+
+.btn_panah-isipangan:active {
+  background-color: #0a5e32;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  padding-bottom: 40px;
+}
+
+.image-container-isipangan {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Menyesuaikan ketinggian gambar dengan tinggi layar */
+  overflow: hidden;
+}
+
+.image-container-isipangan img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Memastikan gambar mengisi seluruh kotak */
+}
+
+.text-overlay-isipangan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay-isipangan h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.text-overlay-isipangan h1 b {
+  color: #1db265;
+}
+
+.text {
+  color: #fff;
+}
+
+.container-2-isipangan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-isipangan {
+  width: 300px;
+  padding: 20px 60px;
+  background-color: transparent;
+}
+
+.card-header-isipangan {
+  width: 315px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.card-body-isipangan {
+  line-height: 1.5;
+}
+
+.card-number {
+  display: inline-block;
+  color: #4caf50;
+  padding: 0px 10px;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 30px;
+}
+.card-number-2,
+.card-number-1 {
+  display: inline-block;
+  color: #4caf50;
+  padding: 0px 10px;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.nutrition-table h2 span {
+  color: #0000;
+}
+.nutrition-table h2 span {
+  font-size: 24px;
+  color: #4caf50;
+  margin-left: 60px;
+}
+
+.nutrition-image {
+  max-width: 90%;
+  height: auto;
+  border: 2px solid #2c7a2c;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.nutrition-table h2 span {
+  color: #0000;
+}
+.nutrition-table h2 span {
+  font-size: 24px;
+  color: #4caf50;
+  margin-left: 60px;
+}
+
+.image-container-isipangan {
+  position: relative;
+  width: 90%;
+  height: 100vh; /* Menyesuaikan ketinggian gambar dengan tinggi layar */
+  overflow: hidden; /* Mengatur agar teks tetap di dalam gambar */
+  margin-left: 50px;
+}
+
+.image-container-isipangan img {
+  width: 110%;
+  height: 80%;
+  object-fit: cover; /* Memastikan gambar mengisi seluruh kotak */
+  filter: brightness(50%);
+}
+
+.text-asem {
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  padding: 10px 20px;
+}
+
+.text-asem h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.text-bawang {
+  padding-bottom: 10px;
+  position: absolute;
+  top: 60%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bawang {
+  color: #14b85e;
+}

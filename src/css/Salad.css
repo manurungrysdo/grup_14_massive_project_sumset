@@ -1,0 +1,218 @@
+/*tampilan deskripsi text*/
+.container_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 285px;
+}
+
+.container_text {
+  display: flex;
+  align-items: center; /* Mengatur gambar dan tombol vertikal */
+}
+
+.gambar-deskripsi {
+  margin-right: 50px; /* Jarak antara gambar dan tombol */
+  margin-bottom: 50px;
+  margin: 50px;
+}
+
+.deskripsi-gambar {
+  width: 300px; /* Sesuaikan ukuran gambar dengan kebutuhan */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+}
+
+.button {
+  background-color: #14b85e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-group {
+  display: flex;
+  justify-content: center; /* Untuk mengatur teks di tengah */
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+.text-container {
+  max-width: 750px; /* Sesuaikan lebar maksimum sesuai kebutuhan */
+  margin-top: -320px; /* Jarak antara teks dengan elemen di atasnya */
+  margin-left: 570px;
+  margin-right: 100px;
+}
+
+.text {
+  padding: 20px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.text-harga {
+  color: rgb(0, 0, 0); /* Warna teks menjadi hijau */
+  margin-right: 270px;
+  font-size: 19px;
+}
+
+.text-bahan {
+  padding-left: 2%;
+  color: rgb(0, 0, 0); /* Warna teks menjadi hijau */
+  margin-right: 50px;
+  font-size: 19px;
+}
+
+/*pada Bagian Header*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6%;
+  background: linear-gradient(to top, #e3fcee, #ffffff);
+  /* Warna terang */
+  color: black;
+  /* Warna teks di atas latar belakang */
+}
+
+.header-content {
+  padding-left: 5%;
+  max-width: 100%;
+}
+
+.header-content a {
+  text-decoration: none;
+}
+
+.container img {
+  width: 45%;
+  height: auto;
+}
+
+.header-content img {
+  width: 80px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+.h1 {
+  color: #14b85e;
+  font-size: 90px;
+}
+
+.h11 {
+  font-size: 50px;
+}
+
+.btn_panah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: #5adf96;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn_panah h1 {
+  margin: 0;
+}
+
+.btn_panah:hover {
+  background-color: #14b85e;
+  transform: translateY(-2px);
+}
+
+.btn_panah:active {
+  background-color: #0a5e32;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tips-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+.salad {
+  color: #00b030;
+}
+
+.tips-salad {
+  width: 45%;
+  background-color: #e0f7e9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.manfaat-salad {
+  width: 45%;
+  background-color: #e0f7e9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.nutrition-table {
+  text-align: left;
+  margin: 40px 0;
+}
+
+.nutrition-table h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-left: 80px;
+}
+
+.ijo-salad {
+  color: #37b037;
+}
+
+.nutrition-table p {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 80px;
+}
+
+.nutrition-image {
+  max-width: 80%;
+  height: auto;
+  border: 2px solid #2c7a2c;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
